@@ -221,6 +221,7 @@ section {
 }
 
 
+
 /* BUTTONS */
 
 .btn-container {
@@ -366,6 +367,11 @@ article .icon {
     position: relative;
 }
 
+#projects > .details-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
@@ -373,13 +379,17 @@ article .icon {
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
 }
 
 .project-title {
     margin: 1rem;
     color: black;
+}
+
+.btn-container {
+    margin-top: auto;
 }
 
 .project-btn {
@@ -409,6 +419,7 @@ article .icon {
 }
 
 .contact-info-container {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -421,7 +432,7 @@ article .icon {
 }
 
 .contact-icon {
-    cursor: default;
+    cursor: pointer;
 }
 
 .email-icon {
