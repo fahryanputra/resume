@@ -367,7 +367,7 @@ article .icon {
     position: relative;
 }
 
-#projects > .details-container {
+#projects .details-container {
     display: flex;
     flex-direction: column;
 }
