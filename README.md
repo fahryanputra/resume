@@ -1,2 +1,2 @@
-# portfolio
-The source code of my portfolio website
+# Resume
+The source code of my resume website
